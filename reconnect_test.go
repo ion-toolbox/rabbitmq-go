@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"os"
 
-	amqp "github.com/rabbitmq/amqp091-go"
+	amqp "github.com/killer-djon/rabbitmq-go"
 )
 
 // Every connection should declare the topology they expect
