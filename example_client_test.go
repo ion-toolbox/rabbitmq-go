@@ -13,7 +13,7 @@ import (
 	"os"
 	"time"
 
-	amqp "github.com/killer-djon/rabbitmq-go"
+	amqp "github.com/ion-toolbox/rabbitmq-go"
 )
 
 // This exports a Client object that wraps this library. It

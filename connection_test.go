@@ -249,7 +249,7 @@ func TestChannelIsClosed(t *testing.T) {
 }
 
 // TestReaderGoRoutineTerminatesWhenMsgIsProcessedDuringClose tests the issue
-// described in https://github.com/killer-djon/rabbitmq-go/issues/69.
+// described in https://github.com/ion-toolbox/rabbitmq-go/issues/69.
 func TestReaderGoRoutineTerminatesWhenMsgIsProcessedDuringClose(t *testing.T) {
 	const routines = 10
 	c := integrationConnection(t, t.Name())
@@ -340,7 +340,7 @@ func TestNewConnectionProperties_HasDefaultProperties(t *testing.T) {
 }
 
 // Connection and channels should be closeable when a memory alarm is active.
-// https://github.com/killer-djon/rabbitmq-go/issues/178
+// https://github.com/ion-toolbox/rabbitmq-go/issues/178
 func TestConnection_Close_WhenMemoryAlarmIsActive(t *testing.T) {
 	err := rabbitmqctl(t, "set_vm_memory_high_watermark", "0.0001")
 	if err != nil {

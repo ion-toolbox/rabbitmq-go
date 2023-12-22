@@ -16,7 +16,7 @@ import (
 	"runtime"
 	"time"
 
-	amqp "github.com/killer-djon/rabbitmq-go"
+	amqp "github.com/ion-toolbox/rabbitmq-go"
 )
 
 func ExampleConfig_timeout() {

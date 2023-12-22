@@ -17,7 +17,7 @@ import (
 	"os"
 	"time"
 
-	amqp "github.com/killer-djon/rabbitmq-go"
+	amqp "github.com/ion-toolbox/rabbitmq-go"
 )
 
 var url = flag.String("url", "amqp:///", "AMQP url for both the publisher and subscriber")

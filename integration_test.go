@@ -2025,7 +2025,7 @@ func TestIntegrationGetNextPublishSeqNo(t *testing.T) {
 	}
 }
 
-// https://github.com/killer-djon/rabbitmq-go/pull/44
+// https://github.com/ion-toolbox/rabbitmq-go/pull/44
 func TestShouldNotWaitAfterConnectionClosedIssue44(t *testing.T) {
 	conn := integrationConnection(t, "TestShouldNotWaitAfterConnectionClosedIssue44")
 	ch, err := conn.Channel()
@@ -2120,7 +2120,7 @@ func assertConsumeBody(t *testing.T, messages <-chan Delivery, want []byte) (msg
 	return msg
 }
 
-// https://github.com/killer-djon/rabbitmq-go/issues/11
+// https://github.com/ion-toolbox/rabbitmq-go/issues/11
 func TestShouldNotWaitAfterConnectionClosedNewChannelCreatedIssue11(t *testing.T) {
 	conn := integrationConnection(t, "TestShouldNotWaitAfterConnectionClosedNewChannelCreatedIssue11")
 	ch, err := conn.Channel()

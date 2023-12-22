@@ -1,5 +1,5 @@
 //module github.com/rabbitmq/amqp091-go
-module github.com/killer-djon/rabbitmq-go
+module github.com/ion-toolbox/rabbitmq-go
 
 go 1.16
 

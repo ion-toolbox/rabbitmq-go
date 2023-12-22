@@ -6,7 +6,7 @@ package main
 import (
 	"context"
 	"flag"
-	amqp "github.com/killer-djon/rabbitmq-go"
+	amqp "github.com/ion-toolbox/rabbitmq-go"
 	"log"
 	"os"
 	"os/signal"
